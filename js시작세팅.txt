@@ -1,0 +1,17 @@
+1. npm init -y : package.json생성한다
+2. npm install parcel-bundler -D
+3. package.json에 있는 scripts부분 내용을 
+"dev": "parcel index.html",
+"build": "parcel build index.html" 로 바꿈
+4. index.html생성
+4. main.js 생성
+5. 이후 실행할때 npm run dev를 하면 된다.
+5. .gitignore에 
+dist/
+.cache/
+node_modules/
+해준다.
+
+그다음
+6. git init부터 순서대로 ㄱㄱ
+
